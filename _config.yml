@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Zhenya Liu"
+  avatar           : "images/avatar.png.JPG"
+  bio              : "MCAM Student in UChicago"
+  location         : "Chicago, IL"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -312,5 +312,5 @@ compress_html:
     envs: development
 
 
-    
+
 remote_theme: benbalter/retlab
