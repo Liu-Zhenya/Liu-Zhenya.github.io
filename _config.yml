@@ -197,7 +197,7 @@ defaults:
       type: posts
     values:
       layout: single
-      hidden: true
+      hide: true
       author_profile: true
       read_time: False
       comments: False
