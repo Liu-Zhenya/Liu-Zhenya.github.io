@@ -1,7 +1,7 @@
 ---
 title: 'My Long Vacation'
 date: August, 2022
-permalink: /posts/2022/08/vacation/
+permalink: /posts/2022/08/My Long Vacation/
 # tags:
 #   - cool posts
 #   - category1
