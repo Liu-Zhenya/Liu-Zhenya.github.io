@@ -197,12 +197,12 @@ defaults:
       type: posts
     values:
       layout: single
-      hide: true
+      published: false
       author_profile: true
-      read_time: False
-      comments: False
-      share: False
-      related: False
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""
