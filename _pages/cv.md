@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can check my complete <a href="../documents/Zhenya_CV.pdf">resume</a> here.
+You can check my <a href="../documents/Zhenya_CV.pdf">resume</a> here.
 
 
 Education
