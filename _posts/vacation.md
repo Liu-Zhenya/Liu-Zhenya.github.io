@@ -2,10 +2,10 @@
 title: 'My Long Vacation'
 date: August, 2022
 permalink: /posts/2022/08/My Long Vacation/
-# tags:
-#   - cool posts
-#   - category1
-#   - category2
+tags:
+  - cool posts
+  - category1
+  - category2
 ---
 
 I believe my college life came to an end in April 2020. That was my sophomore year, and I embarked on a journey back to my home to escape the pandemic. I spent a year taking online classes and decided to graduate early. After that, I chose to take a year off at home. Counting from time of leaving for the U.S. to my new graduate school career next month, I experienced one vacation of approximately two and a half years. \
