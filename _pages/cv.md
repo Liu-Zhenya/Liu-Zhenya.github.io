@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+You can check my complete <a href="../documents/Zhenya_CV.pdf">resume</a> here.
+
+
 Education
 ======
 * M.S. in Computational and Applied Mathematics, University of Chicago, 2022-2024
@@ -27,7 +30,7 @@ Education
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
    -->
-   
+
 Programming Skills
 ======
 * Python
