@@ -7,13 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello, I am Zhenya Liu.
+Hello, I am Zhenya Liu (刘振亚).
 
 I came from hefei, China.
 
-I am currently one Computational and Applied Mathematics student in University of Chicago. Before that, I completed my undergraduate study on Math major in University of Wisconsin Madison.
+I am currently one Computational and Applied Mathematics student in University of Chicago. Before that, I completed my undergraduate study on Math  in University of Wisconsin Madison, 2021.
 
-I love learning classical mathematics theories in linear algebra, abstract algebra, and combinatorics.
+I love classical mathematics theories in linear algebra, abstract algebra, and combinatorics.
 My current interest and research is on generative models for image generations, and I am looking forward to go further research and applications in this direction.
 
 Besides academics, I am a big FOOTBALL fan. FC Barcelona is my favorite team. I also enjoy fitness, gaming, and piano.
@@ -42,11 +42,11 @@ Many of the features of dynamic content management systems (like Wordpress) can 
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+3. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+4. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+5. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+6. Check status by going to the repository settings, in the "GitHub pages" section
 
 Site-wide configuration
 ------
