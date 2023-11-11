@@ -14,8 +14,7 @@ I came from hefei, China.
 I am currently one Computational and Applied Mathematics student in University of Chicago. Before that, I completed my undergraduate study on Math  in University of Wisconsin Madison, 2021.
 
 I always love learning classical mathematics theories in many fields such as linear algebra, abstract algebra, and combinatorics.
-My current interest and research are deep generative models for image generations, and I am looking forward to designing better models by applying methods Reinforcement Learning.
-
+My current interest and research are deep generative models for image generations, and I am looking forward to designing better models with theories in statistics and methods in reinforcement learning.
 Besides academics, I am a big FOOTBALL fan. FC Barcelona is my favorite team. I also enjoy fitness, gaming, and piano.
 
 My game of the year (2023): Resident Evil IV Remake
