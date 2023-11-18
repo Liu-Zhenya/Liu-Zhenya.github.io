@@ -60,7 +60,7 @@ Split Bregman Techniques</a>
 * <a href="../documents/Fashion_MNIST.pdf">Comparison of Performances of Models on
 Fashion-MNIST Dataset</a>
 * Presentations/Notes for Some Generative Models: <a href="../documents/VAE.pdf">VAE</a>,<a href="../documents/IWAE.pdf">IWAE</a>,
-  <a href="../documents/STVAE.pdf">STVAE</a>,<a href="../documents/VAE_NF.pdf">VAE with Normalizing Flows</a>,<a href="../documents/GLF.pdf">Generative Latent Flows</a>,<a href="../documents/Notes on Langevin Dynamics.pdf">Langevin Dynamics</a>
+  <a href="../documents/STVAE.pdf">STVAE</a>,<a href="../documents/VAE_NF.pdf">VAE with Normalizing Flows</a>,<a href="../documents/GLF (2).pdf">Generative Latent Flows</a>,<a href="../documents/Notes on Langevin Dynamics.pdf">Langevin Dynamics</a>
 
 <!-- Talks</a>
 ======
