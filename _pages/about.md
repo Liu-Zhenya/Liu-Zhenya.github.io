@@ -11,13 +11,14 @@ Hello, I am Zhenya Liu (刘振亚).
 
 I came from hefei, China.
 
-I am currently one Computational and Applied Mathematics student in University of Chicago. Before that, I completed my undergraduate study on Math  in University of Wisconsin Madison, 2021.
+I am currently one Computational and Applied Mathematics student advised by [Yuxin Chen](https://yuxinchen.org/) in University of Chicago since 2022. Before that, I completed my undergraduate study on Math in University of Wisconsin Madison in 2021, then I studied as one visiting student of [Wenbin Guo](http://staff.ustc.edu.cn/~wbguo/) in University of Science and Technology of China.
 
 I always love learning classical mathematics theories in many fields such as linear algebra, abstract algebra, and combinatorics.
-My current interest and research are deep generative models for image generations, and I am looking forward to designing better models with theories in statistics and methods in reinforcement learning.
+My current interest and research are broad, including reinforcement learning, deep generative models, and large language models.
+
 Besides academics, I am a big FOOTBALL fan. FC Barcelona is my favorite team. I also enjoy fitness, gaming, and piano.
 
-My game of the year (2023): Resident Evil IV Remake
+My game of the year (2023): [Resident Evil IV Remake](https://www.residentevil.com/re4/en-asia/)
 
 
 
