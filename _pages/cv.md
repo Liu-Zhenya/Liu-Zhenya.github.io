@@ -47,7 +47,7 @@ Publications
 * **Zhenya Liu**, Wenbin Guo.(2022) <a href="../documents/Sylowizer.pdf">The permutability of $\sigma_i$-sylowizers of some $\sigma_i$-subgroups in
 finite groups</a>[*Preprint*]
 
-* **Zhenya Liu**, Chaoqi Wang, Yuxin Chen.(2024) <a href="">Training Diffusion Models via Optimal Goal Reaching</a>[*In Progress*]
+* **Zhenya Liu**, Chaoqi Wang, Yuxin Chen.(2024) <a href="">Training Diffusion Models via Optimal Goal Reaching</a>[*In Progress*] (*Abstract:The central aim of the paper is to cast the learning problem in diffusion models as a reinforcement learning (RL) problem. Our goal is to accelerate this process by maximizing the expected cumulative rewards using an innovative approach that combines neural network architectures and RL techniques. Simultaneously, we must ensure a close approximation between the data distribution and the distribution induced by the policy.*)
 
 
 
