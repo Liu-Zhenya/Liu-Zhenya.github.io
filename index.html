@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zhenya Liu's research, publications, and projects.">
+  <meta name="theme-color" content="#fbfaf7">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Zhenya Liu">
+  <meta property="og:description" content="Research, publications, and projects.">
+  <meta property="og:url" content="https://liu-zhenya.github.io/">
+  <title>Zhenya Liu</title>
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="#top" aria-label="Zhenya Liu, home">Zhenya Liu</a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="intro section-shell" id="top" aria-labelledby="intro-title">
+      <div class="portrait">
+        <img src="assets/profile.jpg" alt="Portrait of Zhenya Liu">
+      </div>
+
+      <div class="intro-copy" id="about">
+        <h1 id="intro-title">Zhenya Liu</h1>
+        <p class="role">PhD student in Computer Science</p>
+        <p class="bio">
+          I study learning dynamics, curriculum learning, and continual learning.
+          I am advised by <a href="https://yuxinchen.org/" target="_blank" rel="noreferrer">Prof. Yuxin Chen</a>.
+        </p>
+        <p class="availability">I am currently looking for research internship opportunities.</p>
+        <div class="profile-links" aria-label="Profile links">
+          <a href="mailto:zhenya@uchicago.edu">Email</a>
+          <a href="https://scholar.google.com/citations?user=gdcAbBAAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="https://github.com/Liu-Zhenya" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="research section-shell" id="research" aria-labelledby="research-title">
+      <div class="section-heading">
+        <p class="eyebrow">Research</p>
+        <h2 id="research-title">Learning systems that improve through experience</h2>
+      </div>
+      <div class="interest-grid">
+        <article>
+          <h3>Learning dynamics</h3>
+          <p>Understanding how value estimation and sampled policy updates shape finite training trajectories.</p>
+        </article>
+        <article>
+          <h3>Curriculum learning</h3>
+          <p>Using structure among environments to allocate interaction where it is most useful.</p>
+        </article>
+        <article>
+          <h3>Continual learning</h3>
+          <p>Identifying when past experience can improve new tasks without sacrificing stability.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="publications section-shell" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading">
+        <p class="eyebrow">Selected publications</p>
+        <h2 id="publications-title">Research projects</h2>
+      </div>
+
+      <article class="publication featured">
+        <div class="publication-visual canvas-visual value-visual">
+          <canvas id="valueMismatchCanvas" aria-label="Animated comparison of sampled policies under a shared baseline and a conditional baseline"></canvas>
+          <div class="canvas-labels" aria-hidden="true">
+            <span>Shared baseline</span>
+            <span>Conditional baseline</span>
+          </div>
+        </div>
+        <div class="publication-copy">
+          <p class="venue">2026 · Preprint</p>
+          <h3>Shared Actors Need Not Share Critics: Effects of Value Mismatch in Parallel Reinforcement Learning</h3>
+          <p class="authors"><strong>Zhenya Liu</strong>, Yang Meng, Xuefeng Liu, Yuxin Chen</p>
+          <p class="summary">Studies how a critic shared across parallel environments can shift environment specific advantages. Conditioning only the critic on a logged environment index corrects this value mismatch while retaining one shared actor.</p>
+          <div class="paper-links" aria-label="Links for Shared Actors Need Not Share Critics">
+            <!-- Replace pending buttons with public URLs before launch. -->
+            <span class="paper-link pending" aria-disabled="true" title="Public project page link to be added">Project page</span>
+            <span class="paper-link pending" aria-disabled="true" title="Public code link to be added">Code</span>
+            <span class="paper-link pending" aria-disabled="true" title="arXiv link to be added">arXiv</span>
+            <span class="paper-link pending" aria-disabled="true" title="alphaXiv link to be added">alphaXiv</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="publication featured reverse">
+        <div class="publication-visual canvas-visual curriculum-visual">
+          <canvas id="curriculumCanvas" aria-label="Animated curriculum paths and active refinement in a structured environment space"></canvas>
+          <p class="visual-note">Random coverage followed by active refinement</p>
+        </div>
+        <div class="publication-copy">
+          <p class="venue">ICML 2026</p>
+          <h3>Active Curriculum Refinement for Reinforcement Learning</h3>
+          <p class="authors"><strong>Zhenya Liu</strong>, Yuxin Chen</p>
+          <p class="summary">Represents related environments as a curriculum DAG. PATH first explores diverse curriculum paths, then reallocates training toward regions that remain unmastered.</p>
+          <div class="paper-links" aria-label="Links for Active Curriculum Refinement for Reinforcement Learning">
+            <a class="paper-link" href="https://active-curriculum-refinement.lzyleo721.chatgpt.site/" target="_blank" rel="noreferrer">Project page</a>
+            <a class="paper-link" href="https://openreview.net/forum?id=BhS108cyjT" target="_blank" rel="noreferrer">OpenReview</a>
+            <a class="paper-link" href="https://github.com/Liu-Zhenya/PATH" target="_blank" rel="noreferrer">Code</a>
+            <span class="paper-link pending" aria-disabled="true" title="arXiv link to be added">arXiv</span>
+            <span class="paper-link pending" aria-disabled="true" title="alphaXiv link to be added">alphaXiv</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="publication compact">
+        <figure class="publication-visual paper-figure">
+          <img src="assets/media/tsr-framework.png" alt="Framework from Rethinking Transfer in Continual Learning, organizing transfer around headroom, a persistent carrier, and source selection">
+          <figcaption>Framework overview from the paper (Figure 1).</figcaption>
+        </figure>
+        <div class="publication-copy">
+          <p class="venue">2026 · arXiv preprint</p>
+          <h3>Rethinking Transfer in Continual Learning: A Replay-Based Realisation</h3>
+          <p class="authors">Yang Meng, <strong>Zhenya Liu</strong>, Zhuokai Zhao, Yuxin Chen</p>
+          <p class="summary">Reframes forward transfer around three measurable conditions: target headroom, a persistent carrier, and a compatible source. Transfer Selective Replay instantiates these conditions through data selection and distillation.</p>
+          <div class="paper-links" aria-label="Links for Rethinking Transfer in Continual Learning">
+            <a class="paper-link" href="https://github.com/ymeng3/transfer-selective-replay" target="_blank" rel="noreferrer">Code</a>
+            <a class="paper-link" href="https://arxiv.org/abs/2607.15587" target="_blank" rel="noreferrer">arXiv</a>
+            <a class="paper-link" href="https://www.alphaxiv.org/abs/2607.15587" target="_blank" rel="noreferrer">alphaXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="publication compact reverse">
+        <div class="publication-visual group-visual" role="img" aria-label="Conceptual subgroup diagram: R is contained in its sigma-i sylowizer S, which is contained in G; S permutes with selected Hall subgroups">
+          <div class="group-box group-g"><span>finite group <i>G</i></span>
+            <div class="group-box group-s"><span>maximal σ<sub>i</sub>-sylowizer <i>S</i></span>
+              <div class="group-box group-r"><span>σ<sub>i</sub>-subgroup <i>R</i></span></div>
+            </div>
+          </div>
+          <div class="hall-node">Hall subgroup<br><i>H</i><sub>j</sub><sup>x</sup></div>
+          <div class="permute-relation"><i>SH</i><sub>j</sub><sup>x</sup> = <i>H</i><sub>j</sub><sup>x</sup><i>S</i></div>
+          <p class="concept-label">Conceptual illustration</p>
+        </div>
+        <div class="publication-copy">
+          <p class="venue">2023 · arXiv preprint</p>
+          <h3>The Permutability of σ<sub>i</sub>-Sylowizers of Some σ<sub>i</sub>-Subgroups in Finite Groups</h3>
+          <p class="authors"><strong>Zhenya Liu</strong>, Wenbin Guo</p>
+          <p class="summary">Studies how permutability conditions on σ<sub>i</sub>-sylowizers constrain finite group structure, yielding new characterizations of supersoluble groups.</p>
+          <div class="paper-links" aria-label="Links for the finite groups paper">
+            <a class="paper-link" href="https://arxiv.org/abs/2301.02337" target="_blank" rel="noreferrer">arXiv</a>
+            <a class="paper-link" href="https://www.alphaxiv.org/abs/2301.02337" target="_blank" rel="noreferrer">alphaXiv</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="section-shell footer-inner">
+      <p>Zhenya Liu</p>
+      <a href="mailto:zhenya@uchicago.edu">zhenya@uchicago.edu</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/portfolio.js" defer></script>
+</body>
+</html>
