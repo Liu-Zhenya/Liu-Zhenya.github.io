@@ -37,7 +37,11 @@
           <a href="https://yuxinchen.org/" target="_blank" rel="noreferrer">Prof. Yuxin Chen</a>.
         </h1>
         <p class="bio">I am interested in reinforcement learning algorithms that are theoretically grounded and practically useful.</p>
-        <p class="availability">I am currently looking for research internship opportunities.</p>
+        <p class="availability">
+          <strong>I am currently looking for research internship opportunities across all areas of reinforcement learning.</strong>
+          Please feel free to reach out to me at
+          <a href="mailto:zhenya@uchicago.edu">zhenya@uchicago.edu</a>.
+        </p>
         <div class="profile-links" aria-label="Profile links">
           <a href="mailto:zhenya@uchicago.edu">Email</a>
           <a href="https://scholar.google.com/citations?user=gdcAbBAAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
@@ -64,7 +68,11 @@
           <p class="venue">2026 · Preprint</p>
           <h3>Shared Actors Need Not Share Critics: Effects of Value Mismatch in Parallel Reinforcement Learning</h3>
           <p class="authors"><strong>Zhenya Liu</strong>, Yang Meng, Xuefeng Liu, Yuxin Chen</p>
-          <p class="summary">Studies how a critic shared across parallel environments can shift environment specific advantages. Conditioning only the critic on a logged environment index corrects this value mismatch while retaining one shared actor.</p>
+          <p class="summary">
+            <strong>A shared critic can distort sampled learning even when its expected policy gradient remains correct.</strong>
+            We identify cross-environment value mismatch as the mechanism and correct it by conditioning only the critic on a logged environment index.
+            <span class="result-highlight"><strong>Aggregated over all 16 Procgen games, a multihead critic improves normalized held-out return by 40.8% over the shared critic on 600 unseen levels per game.</strong></span>
+          </p>
           <div class="paper-links" aria-label="Links for Shared Actors Need Not Share Critics">
             <!-- Replace pending buttons with public URLs before launch. -->
             <span class="paper-link pending" aria-disabled="true" title="Public project page link to be added">Project page</span>
@@ -81,10 +89,17 @@
           <p class="visual-note">Random coverage followed by active refinement</p>
         </div>
         <div class="publication-copy">
-          <p class="venue">ICML 2026</p>
+          <p class="venue venue-major">
+            <a href="https://icml.cc/virtual/2026/poster/65627" target="_blank" rel="noreferrer">ICML 2026</a>
+            <small>Accepted paper · Poster</small>
+          </p>
           <h3>Active Curriculum Refinement for Reinforcement Learning</h3>
           <p class="authors"><strong>Zhenya Liu</strong>, Yuxin Chen</p>
-          <p class="summary">Represents related environments as a curriculum DAG. PATH first explores diverse curriculum paths, then reallocates training toward regions that remain unmastered.</p>
+          <p class="summary">
+            <strong>PATH turns curriculum learning into active path acquisition on a structured environment DAG.</strong>
+            It first explores diverse curriculum paths, then expands successor regions behind newly mastered frontier environments.
+            <span class="result-highlight"><strong>On 1,000 held-out terrains from a more tractable BipedalWalker subspace, PATH improves solved rate by 97% and mean score by 66% over ACCEL.</strong></span>
+          </p>
           <div class="paper-links" aria-label="Links for Active Curriculum Refinement for Reinforcement Learning">
             <a class="paper-link" href="https://active-curriculum-refinement.lzyleo721.chatgpt.site/" target="_blank" rel="noreferrer">Project page</a>
             <a class="paper-link" href="https://openreview.net/forum?id=BhS108cyjT" target="_blank" rel="noreferrer">OpenReview</a>
@@ -104,7 +119,11 @@
           <p class="venue">2026 · arXiv preprint</p>
           <h3>Rethinking Transfer in Continual Learning: A Replay-Based Realisation</h3>
           <p class="authors">Yang Meng, <strong>Zhenya Liu</strong>, Zhuokai Zhao, Yuxin Chen</p>
-          <p class="summary">Reframes forward transfer around three measurable conditions: target headroom, a persistent carrier, and a compatible source. Transfer Selective Replay instantiates these conditions through data selection and distillation.</p>
+          <p class="summary">
+            <strong>Transfer Selective Replay asks when past experience can genuinely improve a new task, then replays only a compatible source.</strong>
+            It operationalizes target headroom, a persistent carrier, and source compatibility through routing and distillation.
+            <span class="result-highlight"><strong>Across four TRACE-8 and NumGLUE-8 model-scale settings, TSR achieves the best final average accuracy and is the only method with positive backward transfer in every setting.</strong></span>
+          </p>
           <div class="paper-links" aria-label="Links for Rethinking Transfer in Continual Learning">
             <a class="paper-link" href="https://github.com/ymeng3/transfer-selective-replay" target="_blank" rel="noreferrer">Code</a>
             <a class="paper-link" href="https://arxiv.org/abs/2607.15587" target="_blank" rel="noreferrer">arXiv</a>
@@ -128,7 +147,7 @@
           <p class="venue">2023 · arXiv preprint</p>
           <h3>The Permutability of σ<sub>i</sub>-Sylowizers of Some σ<sub>i</sub>-Subgroups in Finite Groups</h3>
           <p class="authors"><strong>Zhenya Liu</strong>, Wenbin Guo</p>
-          <p class="summary">Studies how permutability conditions on σ<sub>i</sub>-sylowizers constrain finite group structure, yielding new characterizations of supersoluble groups.</p>
+          <p class="summary"><strong>New characterizations of supersoluble finite groups.</strong> The paper shows how permutability conditions on σ<sub>i</sub>-sylowizers constrain the structure of finite groups.</p>
           <div class="paper-links" aria-label="Links for the finite groups paper">
             <a class="paper-link" href="https://arxiv.org/abs/2301.02337" target="_blank" rel="noreferrer">arXiv</a>
             <a class="paper-link" href="https://www.alphaxiv.org/abs/2301.02337" target="_blank" rel="noreferrer">alphaXiv</a>

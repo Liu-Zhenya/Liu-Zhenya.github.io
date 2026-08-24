@@ -157,9 +157,26 @@ nav a:hover {
 }
 
 .availability {
-  margin: 18px 0 0;
-  color: #3f4b53;
-  font-size: 15px;
+  max-width: 720px;
+  margin: 22px 0 0;
+  padding: 15px 18px;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 4px 4px 0;
+  background: var(--accent-soft);
+  color: #1d5268;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.availability strong {
+  color: #17475b;
+  font-weight: 700;
+}
+
+.availability a {
+  color: #0e617f;
+  font-weight: 700;
 }
 
 .profile-links,
@@ -301,6 +318,37 @@ nav a:hover {
   text-transform: uppercase;
 }
 
+.venue-major {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 9px 11px;
+}
+
+.venue-major > a {
+  display: inline-flex;
+  padding: 6px 11px;
+  border-radius: 3px;
+  background: var(--accent);
+  color: white;
+  font-size: 17px;
+  line-height: 1;
+  letter-spacing: 0.045em;
+  text-decoration: none;
+}
+
+.venue-major > a:hover {
+  background: #17475b;
+  color: white;
+}
+
+.venue-major small {
+  color: #53636b;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+}
+
 .authors {
   margin: 0 0 14px;
   color: #49565e;
@@ -312,6 +360,21 @@ nav a:hover {
   color: #46535b;
   font-size: 15px;
   line-height: 1.62;
+}
+
+.summary strong {
+  color: #26343c;
+  font-weight: 700;
+}
+
+.result-highlight {
+  display: block;
+  margin-top: 9px;
+  color: #184f66;
+}
+
+.result-highlight strong {
+  color: inherit;
 }
 
 .paper-figure {
@@ -494,6 +557,11 @@ footer {
 
   .intro-statement {
     font-size: 20px;
+  }
+
+  .availability {
+    padding: 13px 15px;
+    font-size: 16px;
   }
 
   .publications {
