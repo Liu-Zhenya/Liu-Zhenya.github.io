@@ -139,24 +139,18 @@ nav a:hover {
   text-transform: uppercase;
 }
 
-.intro h1 {
+.intro-statement {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(42px, 7vw, 64px);
-  font-weight: 500;
-  line-height: 1.05;
-  letter-spacing: -0.025em;
-}
-
-.role {
-  margin: 12px 0 18px;
-  color: var(--muted);
-  font-size: 19px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: -0.008em;
 }
 
 .bio {
   max-width: 700px;
-  margin: 0;
+  margin: 12px 0 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 20px;
   line-height: 1.58;
@@ -207,13 +201,8 @@ nav a:hover {
   cursor: default;
 }
 
-.research,
 .publications {
   padding-block: 74px;
-}
-
-.research {
-  border-bottom: 1px solid var(--line);
 }
 
 .section-heading {
@@ -228,31 +217,6 @@ nav a:hover {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.015em;
-}
-
-.interest-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-}
-
-.interest-grid article {
-  padding: 22px;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.interest-grid h3 {
-  margin: 0 0 7px;
-  font-size: 16px;
-}
-
-.interest-grid p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.55;
 }
 
 .publication {
@@ -489,10 +453,6 @@ footer {
     font-size: 18px;
   }
 
-  .interest-grid {
-    grid-template-columns: 1fr;
-  }
-
   .publication,
   .publication.compact {
     grid-template-columns: 1fr;
@@ -532,11 +492,10 @@ footer {
     width: 130px;
   }
 
-  .intro h1 {
-    font-size: 44px;
+  .intro-statement {
+    font-size: 20px;
   }
 
-  .research,
   .publications {
     padding-block: 54px;
   }
