@@ -11,7 +11,7 @@
     "name": "rolldown-runtime"
   },
   "app/components/CitationPanel.tsx": {
-    "file": "_next/static/chunks/CitationPanel-DCis8ICi.js",
+    "file": "_next/static/chunks/CitationPanel-BPsvzly0.js",
     "name": "CitationPanel",
     "src": "app/components/CitationPanel.tsx",
     "isDynamicEntry": true,
@@ -31,7 +31,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "_next/static/chunks/layout-segment-context-Iz5-YA6g.js",
+    "file": "_next/static/chunks/layout-segment-context-BMKVNppn.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -42,7 +42,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "_next/static/chunks/index-vtTQ8aaB.js",
+    "file": "_next/static/chunks/index-paIpFA4l.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
