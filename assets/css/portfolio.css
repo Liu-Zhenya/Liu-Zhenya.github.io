@@ -325,7 +325,8 @@ nav a:hover {
   gap: 9px 11px;
 }
 
-.venue-major > a {
+.venue-major > a,
+.venue-major > span {
   display: inline-flex;
   padding: 6px 11px;
   border-radius: 3px;
