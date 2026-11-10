@@ -267,12 +267,20 @@ nav a:hover {
   white-space: nowrap;
 }
 
+.experience-founders,
 .experience-details {
   max-width: 880px;
-  margin: 20px 0 0;
-  padding-left: 20px;
   color: #46535b;
   font-size: 15px;
+}
+
+.experience-founders {
+  margin: 16px 0 0;
+}
+
+.experience-details {
+  margin: 20px 0 0;
+  padding-left: 20px;
 }
 
 .experience-details li + li {
